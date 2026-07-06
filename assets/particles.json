@@ -1,63 +1,55 @@
 {
   "particles": {
     "number": {
-      "value": 91,
+      "value": 60,
       "density": {
-        "enable": false,
-        "value_area": 0
+        "enable": true,
+        "value_area": 900
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#00FF41"
     },
     "shape": {
-      "type": "polygon",
+      "type": "circle",
       "stroke": {
         "width": 0,
         "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg",
-        "width": 100,
-        "height": 100
       }
     },
     "opacity": {
-      "value": 0.5,
-      "random": false,
+      "value": 0.85,
+      "random": true,
       "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
+        "enable": true,
+        "speed": 0.6,
+        "opacity_min": 0.4,
         "sync": false
       }
     },
     "size": {
-      "value": 3.998400639744104,
+      "value": 3,
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
+        "speed": 4,
+        "size_min": 0.5,
         "sync": false
       }
     },
     "line_linked": {
-      "enable": false,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
+      "enable": true,
+      "distance": 140,
+      "color": "#00FF41",
+      "opacity": 0.35,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 6.3974410235905665,
-      "direction": "right",
+      "speed": 1.2,
+      "direction": "none",
       "random": true,
-      "straight": true,
+      "straight": false,
       "out_mode": "out",
       "bounce": false,
       "attract": {
@@ -71,35 +63,24 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false,
+        "enable": true,
         "mode": "grab"
       },
       "onclick": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "push"
       },
       "resize": true
     },
     "modes": {
       "grab": {
-        "distance": 200,
+        "distance": 160,
         "line_linked": {
-          "opacity": 1
+          "opacity": 0.35
         }
       },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
       "push": {
-        "particles_nb": 4
+        "particles_nb": 3
       },
       "remove": {
         "particles_nb": 2
